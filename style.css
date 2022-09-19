@@ -4,13 +4,16 @@ body {
 }
 /* ------------------------------------navbar styles-------------------------------------- */
 .nav ul {
-  background-color: #260101;
+  background-color: #347355;
   list-style-type: none;
   overflow: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
   font-size: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 li {
   float: right;
@@ -19,13 +22,13 @@ li a {
   display: inline-block;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #260101;
-  color: #a67951;
+  background-color: #347355;
+  color: #93D94E;
 }
 li a:hover {
-  background-color:#a67951;
+  background-color:#3B8C66;
   text-decoration: solid;
-  color:#260101;
+  color:#347355;
   padding: 15px 17px;
 }
 .nav .icon {
@@ -34,8 +37,8 @@ li a:hover {
 /* ---------------------------------landing page styles------------------------------------------------- */
 .landing  {
   text-decoration: none;
-  background-color: #0d0d0d;
-  color: #a67951;
+  background-color: #223240;
+  color: #93D94E;
   width: 100%;
   /* height: 600px; */
   text-align: center;
@@ -55,8 +58,8 @@ li a:hover {
 
 /* ---------------------------------about part styling---------------------------------------------------- */
 .about {
-  background-color: #260101;
-  color: #a67951;
+  background-color: #347355;
+  color: #93D94E;
 
 }
 .about img {
@@ -83,8 +86,8 @@ box-sizing: border-box;
 }
 .column a {
     display: block;
-    background-color: #0d0d0d;
-    color:#a67951;
+    background-color: #223240;
+    color:#93D94E;
     padding: 10px;
     float: right;
     text-decoration: none;
@@ -92,26 +95,26 @@ box-sizing: border-box;
 .column a:hover {
     text-decoration: none;
     display: block;
-    background-color:#a67951;
-    color:#260101;
+    background-color:#93D94E;
+    color:#347355;
     padding: 12px;
 }
 /* ----------------background styling------------------------------------------------------------------------------- */
 .background {
-    background-color:#0d0d0d;
-    color:#a67951;
+    background-color:#223240;
+    color:#93D94E;
     height: 950px;
     margin: 0px;
     padding: 10px;
 }
 .background h2 {
-    color:#f1bf93;
+    color:#93D94E;
     font-size: 25px;
-    border-bottom: 1px solid #f1bf93;
+    border-bottom: 1px solid #3B8C66;
 }
 /* -------------------------------contact form styling---------------------------------------------------------------------- */
 .contact {
-    background-color: #260101;
+    background-color: #347355;
     color: white;
     text-align: center;
     padding: 50px;
@@ -123,18 +126,18 @@ input, select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 2px solid #a67951;
+    border: 2px solid #3B8C66;
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #260101;
+    background-color: #347355;
     font-size: 15px;
 }
 
 .contact a {
     text-decoration: none;
     width: 80%;
-    background-color:#0d0d0d;
-    color:#a67951;
+    background-color:#223240;
+    color:#93D94E;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -143,20 +146,20 @@ input, select {
     
 }
 .contact a:hover {
-    background-color:#a67951;
-    color:#260101;
+    background-color:#3B8C66;
+    color:#347355;
     text-decoration: none;
 }
 .contact h2 {
-  color:#a67951;
+  color:#93D94E;
   font-size: 25px;
   font-family: Helvetica, sans-serif;
 }
 
 /* --------------footer styling---------------------------------------------------- */
 .footer {
-    background-color:#260101;
-    color:#a67951;
+    background-color:#347355;
+    color:#93D94E;
     margin: 0px;
     padding:5px;
     text-align: center;
